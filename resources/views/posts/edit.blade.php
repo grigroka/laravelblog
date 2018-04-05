@@ -28,7 +28,6 @@
 
             {{ Form::label('featured_image', 'Update Featured Image:', ['class' => 'form-spacing-top']) }}
             {{ Form::file('featured_image') }}
-            {{--TODO switch to TinyMCE WYSIWYG text editor, configure it acording to needs.--}}
             {{ Form::label('body', 'Body:', ['class' => 'form-spacing-top']) }}
             {{ Form::textarea('body', null, ['class' => 'form-control', 'id' => 'article-ckeditor']) }}
         </div>

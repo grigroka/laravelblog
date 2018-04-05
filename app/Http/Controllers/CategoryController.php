@@ -69,7 +69,7 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        // TODO Finish CategoryController
+        //
     }
 
     /**
@@ -92,16 +92,6 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-//          TODO add category delete function. Solve model category_id issue. Detach doesn't work. Make category_id as foreign key? On delete setNull.
-//        {
-//            $category = Category::find($id);
-//            $category->posts()->detach();
-//
-//            $category->delete();
-//
-//            Session::flash('success', 'Category was deleted successfully!');
-//
-//            return redirect()->route('categories.index');
-//        }
+        //
     }
 }

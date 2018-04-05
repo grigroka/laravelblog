@@ -16,7 +16,6 @@
             {!! Form::close() !!}
         </div>
     </div>
-{{--TODO improve tag views and design.--}}
     <div class="row">
         <div class="col-md-12">
             <table class="table">

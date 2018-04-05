@@ -37,4 +37,3 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 }
-    // TODO Make different auth group for Peons who can only comment. Also user group for blog posts only.
